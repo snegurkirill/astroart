@@ -1,0 +1,41 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bone: #F7F5F0;
+  --ink: #1C1C1C;
+  --ink-faint: rgba(28, 28, 28, 0.22);
+  --ink-mid: rgba(28, 28, 28, 0.55);
+  --card-w: clamp(200px, 28vw, 360px);
+  --card-h: clamp(280px, 38vw, 500px);
+  --above-h: clamp(52px, 7vw, 72px);
+  --z-spacing: 680px;
+  --perspective: 900px;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: var(--bone);
+  color: var(--ink);
+  font-family: 'Inter', system-ui, sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+}
+
+/* Journey scroll driver */
+#scroll-driver {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  pointer-events: none;
+  visibility: hidden;
+}

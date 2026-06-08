@@ -2,7 +2,7 @@ export default function Observation({ item }) {
   if (!item) return null
 
   return (
-    <div style={{
+    <div className="obs-scroll" style={{
       position: 'fixed',
       top: 0,
       left: 0,

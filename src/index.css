@@ -29,6 +29,10 @@ body {
   overflow: hidden;
 }
 
+/* Hide scrollbar in Observation mode */
+.obs-scroll { scrollbar-width: none; -ms-overflow-style: none; }
+.obs-scroll::-webkit-scrollbar { display: none; }
+
 /* Journey scroll driver */
 #scroll-driver {
   position: fixed;

@@ -150,7 +150,7 @@ export default function Inward({ items, onSelect, onCameraZ }) {
   const handleTouchStart = useCallback((e) => { touchStartY.current = e.touches[0].clientY }, [])
   const handleTouchMove = useCallback((e) => {
     if (touchStartY.current === null) return
-    advance((touchStartY.current - e.touches[0].clientY) * 1.5)
+    advance((touchStartY.current - e.touches[0].clientY) * 1.8)
     touchStartY.current = e.touches[0].clientY
   }, [advance])
 

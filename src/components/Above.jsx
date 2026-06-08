@@ -10,7 +10,7 @@ export default function Above({ mode, items, activeIndex, onBack }) {
       borderTop: '1px solid rgba(28,28,28,0.08)',
       display: 'flex',
       alignItems: 'center',
-      justifyContent: mode === 'observation' ? 'flex-start' : 'center',
+      justifyContent: 'center',
       padding: '0 clamp(16px, 5vw, 56px)',
       zIndex: 100,
     }}>

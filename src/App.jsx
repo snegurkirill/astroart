@@ -39,6 +39,8 @@ export default function App() {
         flexDirection: 'column',
         gap: '3px',
         pointerEvents: 'none',
+        opacity: isJourney ? 1 : 0,
+        transition: 'opacity 0.22s ease',
       }}>
         <span style={{
           fontFamily: "'EB Garamond', Georgia, serif",
@@ -68,15 +70,16 @@ export default function App() {
         right: 'clamp(16px, 3vw, 36px)',
         zIndex: 200,
         pointerEvents: 'none',
+        opacity: isJourney ? 1 : 0,
+        transition: 'opacity 0.22s ease',
       }}>
         <span style={{
           fontSize: 'clamp(8px, 0.9vw, 10px)',
           letterSpacing: '0.12em',
           textTransform: 'uppercase',
           color: 'var(--ink-faint)',
-          transition: 'opacity 0.22s ease',
         }}>
-          {isJourney ? 'Journey' : 'Observation'}
+          Journey
         </span>
       </div>
 

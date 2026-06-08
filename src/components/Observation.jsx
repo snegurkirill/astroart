@@ -10,36 +10,38 @@ export default function Observation({ item }) {
       height: `calc(100% - var(--above-h))`,
       overflowY: 'auto',
       background: 'var(--bone)',
-      display: 'flex',
-      justifyContent: 'center',
       WebkitOverflowScrolling: 'touch',
     }}>
+
+      {/* Image — full viewport width, capped at 800px */}
+      <div style={{
+        width: '100%',
+        maxWidth: '800px',
+        margin: '0 auto',
+        aspectRatio: '4/3',
+        overflow: 'hidden',
+      }}>
+        {item.image ? (
+          <img
+            src={item.image}
+            alt={item.title}
+            style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+          />
+        ) : (
+          <div style={{ width: '100%', height: '100%', background: item.color }} />
+        )}
+      </div>
+
       <article style={{
         width: '100%',
         maxWidth: 'clamp(300px, 60vw, 680px)',
-        padding: 'clamp(40px, 8vw, 96px) clamp(16px, 4vw, 0px)',
+        margin: '0 auto',
+        padding: 'clamp(28px, 5vw, 56px) clamp(16px, 4vw, 0px) clamp(40px, 8vw, 96px)',
         display: 'flex',
         flexDirection: 'column',
         gap: 'clamp(24px, 4vw, 40px)',
+        boxSizing: 'border-box',
       }}>
-
-        {/* Image */}
-        <div style={{
-          width: '100%',
-          aspectRatio: '4/3',
-          background: item.color,
-          overflow: 'hidden',
-        }}>
-          {item.image ? (
-            <img
-              src={item.image}
-              alt={item.title}
-              style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
-            />
-          ) : (
-            <div style={{ width: '100%', height: '100%', background: item.color }} />
-          )}
-        </div>
 
         {/* Header */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>

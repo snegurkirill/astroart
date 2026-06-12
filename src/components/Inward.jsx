@@ -25,6 +25,8 @@ function CardMesh({ item, index, cameraZ, onSelect }) {
   const isVisible = opacity > 0.01
   const isActive = effectiveZ > -Z_SPACING * 0.55 && effectiveZ < Z_SPACING * 0.35
   const xSign = index % 2 === 0 ? 1 : -1
+  // Only mount <img> when card is within ~5 positions of camera; farther cards show color placeholder
+  const loadImg = ez > -5
 
   return (
     <div
@@ -48,12 +50,12 @@ function CardMesh({ item, index, cameraZ, onSelect }) {
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
-      <CardFace item={item} isActive={isActive} hovered={hovered} />
+      <CardFace item={item} isActive={isActive} hovered={hovered} loadImg={loadImg} />
     </div>
   )
 }
 
-function CardFace({ item, isActive, hovered }) {
+function CardFace({ item, isActive, hovered, loadImg }) {
   return (
     <div style={{
       width: '100%',
@@ -71,8 +73,13 @@ function CardFace({ item, isActive, hovered }) {
       position: 'relative',
     }}>
       <div style={{ flex: '1 1 0', overflow: 'hidden' }}>
-        {item.image
-          ? <img src={item.image} alt={item.title} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+        {item.image && loadImg
+          ? <img
+              src={item.image}
+              alt={item.title}
+              fetchPriority={isActive ? 'high' : 'auto'}
+              style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+            />
           : <div style={{ width: '100%', height: '100%', background: item.color }} />
         }
       </div>

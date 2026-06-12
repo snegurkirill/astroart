@@ -24,6 +24,8 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
+      - run: npm run discover   # scan public/images/ → update data.local.json
+      - run: npm run generate   # data.local.json → src/data.js
       - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:

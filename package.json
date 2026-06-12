@@ -6,6 +6,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "discover": "node scripts/discover-images.js",
+    "generate": "node scripts/generate-data.js",
     "sync": "node scripts/sync-notion.js"
   },
   "dependencies": {

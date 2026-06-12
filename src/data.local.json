@@ -513,29 +513,13 @@
     "year": "2015–2018"
   },
   "29": {
-    "color": "#0d3a2e",
-    "image": null,
-    "imageOptions": [],
-    "title": "Ghost World",
-    "artist": "Mikkel Beiter",
-    "collective": null,
-    "type": "Астрофотография",
-    "medium": "Цифровая фотография",
-    "year": "2016",
-    "idea": "Северное сияние как зеркало неба — свет, который существует только в отражении",
-    "description": "5 октября 2016 года на чёрном песчаном пляже Стоккснес на юго-востоке Исландии Байтер запечатлел бирюзово-зелёное полярное сияние, отражающееся в мокром песке. Работа получила первое место в категории «Аврора» на конкурсе Insight Astronomy Photographer of the Year 2017 в Королевской обсерватории Гринвич. Байтер — самоучка из Копенгагена — снимает полярные сияния и звёздное небо в Арктике, превращая астрофизические феномены в пространства, где небо и земля становятся неразличимы.",
-    "notes": "",
-    "sources": [],
-    "id": 29
-  },
-  "30": {
-    "id": 30,
+    "id": 29,
     "color": "#1A1A0A",
-    "image": "images/30-halo/01-2400.jpg",
+    "image": "images/29-halo/01-2400.jpg",
     "imageOptions": [
-      "images/30-halo/01-2400.jpg",
-      "images/30-halo/02-1280.jpeg",
-      "images/30-halo/03-2400.jpg"
+      "images/29-halo/01-2400.jpg",
+      "images/29-halo/02-1280.jpeg",
+      "images/29-halo/03-2400.jpg"
     ],
     "description": "Девяносто девять роботизированных зеркал, расставленных на двух пятиметровых башнях и пятнадцатиметровой дорожке, весь день следят за солнцем, как подсолнухи. Отражённые пучки сходятся в облаке водяного тумана и в точке пересечения рождается второе солнце — светящийся нимб, висящий в воздухе посреди дня. Когда ветер меняется или облако закрывает солнце, нимб исчезает, и зеркала снова начинают искать свет. Это произведение существует только тогда, когда природа, технология и случай совпадают — и именно это совпадение есть его смысл.",
     "title": "HALO",
@@ -546,14 +530,14 @@
     "idea": "Слияние вычислений, солнечной энергии и эфемерной оптики",
     "year": "2018"
   },
-  "31": {
-    "id": 31,
+  "30": {
+    "id": 30,
     "color": "#0A1420",
-    "image": "images/31-fedorova/01-1637598392.png",
+    "image": "images/30-fedorova/01-1637598392.png",
     "imageOptions": [
-      "images/31-fedorova/01-1637598392.png",
-      "images/31-fedorova/02-1637598580.png",
-      "images/31-fedorova/03-1637598807.png"
+      "images/30-fedorova/01-1637598392.png",
+      "images/30-fedorova/02-1637598580.png",
+      "images/30-fedorova/03-1637598807.png"
     ],
     "description": "Лара Федотова погружает листы светочувствительной бумаги прямо в воду озёр — в тёмные лунные ночи, без камеры и объектива. Эмульсия соприкасается с водой, и лунный свет, преломлённый через рябь поверхности, химически отпечатывает себя на бумаге. Получившиеся лунограммы — не фотографии луны, а следы её присутствия, зафиксированные в момент прямого физического контакта неба с землёй. Серия была создана в заброшенных карьерах Кипра и московских водоёмах; художница показывала её в медиацентре «Зарядье», в ГЭС-2 и на Красноярской биеннале. Это одновременно концептуальный жест и нежная медитация о том, как природа пишет себя.",
     "title": "Лунограммы",
@@ -564,14 +548,14 @@
     "idea": "Прямой контакт светочувствительного материала с лунным светом и природными стихиями",
     "year": "2020–наст. вр."
   },
-  "32": {
-    "id": 32,
+  "31": {
+    "id": 31,
     "color": "#1a2744",
-    "image": "images/32-mayorova/03454d132577825.61accf86abd5c.png",
+    "image": "images/31-mayorova/03454d132577825.61accf86abd5c.png",
     "imageOptions": [
-      "images/32-mayorova/03454d132577825.61accf86abd5c.png",
-      "images/32-mayorova/4cfa0e132577825.61ad1c8f9dbe7.png",
-      "images/32-mayorova/560a17132577825.61abda3894311.png"
+      "images/31-mayorova/03454d132577825.61accf86abd5c.png",
+      "images/31-mayorova/4cfa0e132577825.61ad1c8f9dbe7.png",
+      "images/31-mayorova/560a17132577825.61abda3894311.png"
     ],
     "title": "Космоурбанистика",
     "artist": "Полина Майорова",
@@ -586,14 +570,14 @@
       "https://www.behance.net/gallery/132577825/the-spaceurbanistic-book"
     ]
   },
-  "33": {
-    "id": 33,
+  "32": {
+    "id": 32,
     "color": "#0d1b2a",
-    "image": "images/33-pulsar/17349550506769502a1cef32.70825324.png",
+    "image": "images/32-pulsar/17349550506769502a1cef32.70825324.png",
     "imageOptions": [
-      "images/33-pulsar/17349550506769502a1cef32.70825324.png",
-      "images/33-pulsar/2024-05-13-16-11-58_Солнце Тавриды.jpg",
-      "images/33-pulsar/649d73f94f52cf42464cb9e0.jpg"
+      "images/32-pulsar/17349550506769502a1cef32.70825324.png",
+      "images/32-pulsar/2024-05-13-16-11-58_Солнце Тавриды.jpg",
+      "images/32-pulsar/649d73f94f52cf42464cb9e0.jpg"
     ],
     "title": "Пульсар",
     "artist": "Глеб Иванов",
@@ -608,14 +592,14 @@
       "https://www.architection.pro/projects/pulsar"
     ]
   },
-  "34": {
-    "id": 34,
+  "33": {
+    "id": 33,
     "color": "#1A1208",
-    "image": "images/34-robert-hodgin/01-tripleTransit-1_b.jpg",
+    "image": "images/33-robert-hodgin/01-tripleTransit-1_b.jpg",
     "imageOptions": [
-      "images/34-robert-hodgin/01-tripleTransit-1_b.jpg",
-      "images/34-robert-hodgin/02-dag_01.v2b.jpg",
-      "images/34-robert-hodgin/03-blue_eclipse_b.jpg"
+      "images/33-robert-hodgin/01-tripleTransit-1_b.jpg",
+      "images/33-robert-hodgin/02-dag_01.v2b.jpg",
+      "images/33-robert-hodgin/03-blue_eclipse_b.jpg"
     ],
     "description": "Каждое изображение в серии Solar Transits — это процедурно сгенерированное астрономическое событие, увиденное сквозь оптику XIX века: дагерротипная зернистость, мягкие ореолы, патина времени. Ходжин написал код на JavaScript и GLSL-шейдерах, который для каждого токена случайным образом выбирает планетарное выравнивание, орбитальные параметры и химию «эмульсии». Четыреста уникальных работ — и каждая претендует на то, чтобы быть документом наблюдения, которого никогда не было. Первые десять покупателей могли получить физический дагерротип, сделанный по мотивам своего изображения: цифровое искусство, материализованное через самую архаичную фотографическую технику.",
     "title": "Solar Transits",
@@ -629,8 +613,8 @@
       "https://www.artblocks.io/collection/solar-transits-by-robert-hodgin"
     ]
   },
-  "35": {
-    "id": 35,
+  "34": {
+    "id": 34,
     "color": "#1c1c1e",
     "image": null,
     "imageOptions": [],
@@ -649,14 +633,14 @@
       "https://www.artsy.net/artist/vladimir-chernyshev"
     ]
   },
-  "36": {
-    "id": 36,
+  "35": {
+    "id": 35,
     "color": "#0d2930",
-    "image": "images/36-borisova/2025-12-22_15-23-57.png.webp",
+    "image": "images/35-borisova/2025-12-22_15-23-57.png.webp",
     "imageOptions": [
-      "images/36-borisova/2025-12-22_15-23-57.png.webp",
-      "images/36-borisova/__002.jpg.webp",
-      "images/36-borisova/__004.jpg.webp"
+      "images/35-borisova/2025-12-22_15-23-57.png.webp",
+      "images/35-borisova/__002.jpg.webp",
+      "images/35-borisova/__004.jpg.webp"
     ],
     "title": "История о приручении кометы",
     "artist": "Лена Борисова",
@@ -671,14 +655,14 @@
       "https://lenobo00.ru/tamingcomet"
     ]
   },
-  "37": {
-    "id": 37,
+  "36": {
+    "id": 36,
     "color": "#c4a45a",
-    "image": "images/37-turrell-alula/01-james-turrell-unveils-monumental-commission-for-wadi-alfann-.jpg",
+    "image": "images/36-turrell-alula/01-james-turrell-unveils-monumental-commission-for-wadi-alfann-.jpg",
     "imageOptions": [
-      "images/37-turrell-alula/01-james-turrell-unveils-monumental-commission-for-wadi-alfann-.jpg",
-      "images/37-turrell-alula/02-james-turrell-unveils-monumental-commission-for-wadi-alfann-.jpg",
-      "images/37-turrell-alula/03-james-turrell-unveils-monumental-commission-for-wadi-alfann-.jpg"
+      "images/36-turrell-alula/01-james-turrell-unveils-monumental-commission-for-wadi-alfann-.jpg",
+      "images/36-turrell-alula/02-james-turrell-unveils-monumental-commission-for-wadi-alfann-.jpg",
+      "images/36-turrell-alula/03-james-turrell-unveils-monumental-commission-for-wadi-alfann-.jpg"
     ],
     "title": "Wadi AlFann — Cosmic Observatories",
     "artist": "James Turrell",
@@ -693,13 +677,13 @@
       "https://www.designboom.com/art/james-turrell-unveils-plans-colossal-cosmic-observatories-land-art-alula-ancient-desert-01-21-2025/"
     ]
   },
-  "38": {
+  "37": {
     "color": "#1a0a2e",
-    "image": "images/38-prouvost/d5a4cebcc22021a3c625068cc8778003c871bacd-7053x4782.jpg.avif",
+    "image": "images/37-prouvost/d5a4cebcc22021a3c625068cc8778003c871bacd-7053x4782.jpg.avif",
     "imageOptions": [
-      "images/38-prouvost/d5a4cebcc22021a3c625068cc8778003c871bacd-7053x4782.jpg.avif",
-      "images/38-prouvost/e1627bc3d9835eed979343e969a4a153ef9bf2e8-7340x4899.jpg.avif",
-      "images/38-prouvost/f9269228e0b2847257b4fd3bee238cc179b137de-6907x5238.jpg.avif"
+      "images/37-prouvost/d5a4cebcc22021a3c625068cc8778003c871bacd-7053x4782.jpg.avif",
+      "images/37-prouvost/e1627bc3d9835eed979343e969a4a153ef9bf2e8-7340x4899.jpg.avif",
+      "images/37-prouvost/f9269228e0b2847257b4fd3bee238cc179b137de-6907x5238.jpg.avif"
     ],
     "title": "We Felt A Star Dying",
     "artist": "Laure Prouvost",
@@ -713,6 +697,6 @@
     "sources": [
       "https://lasartfoundation.org/"
     ],
-    "id": 38
+    "id": 37
   }
 }

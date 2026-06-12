@@ -367,8 +367,10 @@
   "21": {
     "id": 21,
     "color": "#1a3d6e",
-    "image": null,
-    "imageOptions": [],
+    "image": "images/21-matisse/il_570xN.7728481862_6v1l.jpg.webp",
+    "imageOptions": [
+      "images/21-matisse/il_570xN.7728481862_6v1l.jpg.webp"
+    ],
     "title": "Icare — Jazz, plate VIII",
     "artist": "Henri Matisse",
     "collective": null,
@@ -405,8 +407,10 @@
   "23": {
     "id": 23,
     "color": "#c84b0e",
-    "image": null,
-    "imageOptions": [],
+    "image": "images/23-leonov/images.jpeg",
+    "imageOptions": [
+      "images/23-leonov/images.jpeg"
+    ],
     "title": "Орбитальный рассвет",
     "artist": "Алексей Леонов",
     "collective": null,
@@ -581,8 +585,12 @@
   "33": {
     "id": 33,
     "color": "#1a2744",
-    "image": null,
-    "imageOptions": [],
+    "image": "images/33-mayorova/03454d132577825.61accf86abd5c.png",
+    "imageOptions": [
+      "images/33-mayorova/03454d132577825.61accf86abd5c.png",
+      "images/33-mayorova/4cfa0e132577825.61ad1c8f9dbe7.png",
+      "images/33-mayorova/560a17132577825.61abda3894311.png"
+    ],
     "title": "Космоурбанистика",
     "artist": "Полина Майорова",
     "collective": null,
@@ -599,8 +607,12 @@
   "34": {
     "id": 34,
     "color": "#0d1b2a",
-    "image": null,
-    "imageOptions": [],
+    "image": "images/34-pulsar/17349550506769502a1cef32.70825324.png",
+    "imageOptions": [
+      "images/34-pulsar/17349550506769502a1cef32.70825324.png",
+      "images/34-pulsar/2024-05-13-16-11-58_Солнце Тавриды.jpg",
+      "images/34-pulsar/649d73f94f52cf42464cb9e0.jpg"
+    ],
     "title": "Пульсар",
     "artist": "Глеб Иванов",
     "collective": null,
@@ -638,8 +650,12 @@
   "36": {
     "id": 36,
     "color": "#0d2930",
-    "image": null,
-    "imageOptions": [],
+    "image": "images/36-borisova/2025-12-22_15-23-57.png.webp",
+    "imageOptions": [
+      "images/36-borisova/2025-12-22_15-23-57.png.webp",
+      "images/36-borisova/__002.jpg.webp",
+      "images/36-borisova/__004.jpg.webp"
+    ],
     "title": "История о приручении кометы",
     "artist": "Лена Борисова",
     "collective": null,
@@ -677,8 +693,12 @@
   },
   "38": {
     "color": "#1a0a2e",
-    "image": null,
-    "imageOptions": [],
+    "image": "images/38-prouvost/d5a4cebcc22021a3c625068cc8778003c871bacd-7053x4782.jpg.avif",
+    "imageOptions": [
+      "images/38-prouvost/d5a4cebcc22021a3c625068cc8778003c871bacd-7053x4782.jpg.avif",
+      "images/38-prouvost/e1627bc3d9835eed979343e969a4a153ef9bf2e8-7340x4899.jpg.avif",
+      "images/38-prouvost/f9269228e0b2847257b4fd3bee238cc179b137de-6907x5238.jpg.avif"
+    ],
     "title": "We Felt A Star Dying",
     "artist": "Laure Prouvost",
     "collective": null,

@@ -1,5 +1,6 @@
 {
   "1": {
+    "id": 1,
     "color": "#5C3A1E",
     "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Lascaux_II%2C_Salle_des_taureaux-4970.jpg",
     "imageOptions": [
@@ -16,6 +17,7 @@
     "idea": "Ранние наблюдения за небом; связь животной мифологии со звёздными узорами"
   },
   "2": {
+    "id": 2,
     "color": "#2A4A3A",
     "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Himmelsscheibe_von_Nebra_-_Landesmuseum_f%C3%BCr_Vorgeschichte_in_Halle_-_HD.jpg",
     "imageOptions": [
@@ -32,6 +34,7 @@
     "idea": "Синхронизация лунно-солнечных календарей; соединение эмпирического наблюдения с мифом"
   },
   "3": {
+    "id": 3,
     "color": "#1A0A00",
     "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Astronomical_Ceiling%2C_Tomb_of_Senenmut_MET_DT207429.jpg",
     "imageOptions": [
@@ -47,6 +50,7 @@
     "idea": "Картография времени для ритуальной навигации загробного мира"
   },
   "4": {
+    "id": 4,
     "color": "#6B4C2A",
     "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Dendera_zodiac_louvre.JPG",
     "imageOptions": [
@@ -63,6 +67,7 @@
     "idea": "Эллинистически-египетский синтез космологии и гадания"
   },
   "5": {
+    "id": 5,
     "color": "#8B6914",
     "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/MulApin-BritishMuseum.jpg",
     "imageOptions": [
@@ -78,6 +83,7 @@
     "idea": "Стандартизированный небесный каталог для ритуальных и научных целей"
   },
   "6": {
+    "id": 6,
     "color": "#C8C8B4",
     "image": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Farnese_Atlas.jpg",
     "imageOptions": [
@@ -94,6 +100,7 @@
     "idea": "Космос как бремя знания"
   },
   "7": {
+    "id": 7,
     "color": "#1C1A2E",
     "image": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Dunhuang_Star_Atlas_-_complete.jpg",
     "imageOptions": [
@@ -109,6 +116,7 @@
     "idea": "Синтез конкурирующих китайских астрономических традиций"
   },
   "8": {
+    "id": 8,
     "color": "#1A2A4A",
     "image": "https://upload.wikimedia.org/wikipedia/commons/d/db/Kitab_suwar_al-kawakib_al-thabita_%28Book_of_the_Images_of_the_Fixed_Stars%29_of_al-Sufi_MET_21317.jpg",
     "imageOptions": [
@@ -125,6 +133,7 @@
     "idea": "Гармонизация греческой науки с исламскими наблюдениями"
   },
   "9": {
+    "id": 9,
     "color": "#1A2A5A",
     "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Giotto_-_Scrovegni_-_-18-_-_Adoration_of_the_Magi.jpg",
     "imageOptions": [
@@ -140,6 +149,7 @@
     "idea": "Библейский нарратив, соединённый с реальной астрономией"
   },
   "10": {
+    "id": 10,
     "color": "#0A0A1A",
     "image": "https://upload.wikimedia.org/wikipedia/commons/5/56/Johannes_Hevelius_-_Orion.jpg",
     "imageOptions": [
@@ -156,6 +166,7 @@
     "idea": "Обновление каталога невооружённого глаза на заре телескопической эпохи"
   },
   "11": {
+    "id": 11,
     "color": "#1A1808",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg/1280px-Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg",
     "imageOptions": [
@@ -171,6 +182,7 @@
     "idea": "Гуманистическое мастерство против космического memento mori"
   },
   "12": {
+    "id": 12,
     "color": "#1C1208",
     "image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Wright_of_Derby%2C_The_Orrery.jpg",
     "imageOptions": [
@@ -186,6 +198,7 @@
     "idea": "Демократизация научного восхищения"
   },
   "13": {
+    "id": 13,
     "color": "#0D1640",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
     "imageOptions": [
@@ -201,6 +214,7 @@
     "idea": "Выражение мятущейся психики и духовного стремления"
   },
   "14": {
+    "id": 14,
     "color": "#1A1A1A",
     "image": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Moonrise%2C_Hernandez%2C_New_Mexico.jpg",
     "imageOptions": [
@@ -216,6 +230,7 @@
     "idea": "Вечное небо в контрасте со смертным пейзажем"
   },
   "15": {
+    "id": 15,
     "color": "#2A1808",
     "image": "https://www.nevadaart.org/wp-content/uploads/2017/09/2018_Turrell_Hero.jpg",
     "imageOptions": [
@@ -232,6 +247,7 @@
     "idea": "Пейзаж как инструмент космологии невооружённого глаза"
   },
   "16": {
+    "id": 16,
     "color": "#050505",
     "image": "https://live.staticflickr.com/3504/3742901291_bebd861272.jpg",
     "imageOptions": [
@@ -247,6 +263,7 @@
     "idea": "Самоуничтожение внутри безграничной вселенной"
   },
   "17": {
+    "id": 17,
     "color": "#3A2800",
     "image": "https://res.cloudinary.com/olafureliasson-net/image/private/q_auto:eco,c_fit,h_640,w_640/img/the-weather-project_8200.jpg",
     "imageOptions": [
@@ -263,6 +280,7 @@
     "idea": "Вопросы климата, восприятия и коллективного опыта"
   },
   "18": {
+    "id": 18,
     "color": "#0A0A14",
     "image": "https://paglen.studio/wp-content/uploads/2020/06/Paglen-The_Last_Pictures-disk.jpg",
     "imageOptions": [
@@ -279,6 +297,7 @@
     "idea": "Капсула времени цивилизации для далёкого будущего"
   },
   "19": {
+    "id": 19,
     "color": "#1A1A0A",
     "image": "https://pub-def9ab096473429692fa64ce0ae78d6d.r2.dev/media/106b7d27ac1dcaaa/2400.jpeg",
     "imageOptions": [
@@ -295,6 +314,7 @@
     "idea": "Слияние вычислений, солнечной энергии и эфемерной оптики"
   },
   "20": {
+    "id": 20,
     "color": "#0A0A0A",
     "image": "https://i0.wp.com/katiepaterson.org.uk/wp-content/uploads/2022/02/Katie_Paterson_All_the_Dead_Stars_7.jpg",
     "imageOptions": [
@@ -311,6 +331,7 @@
     "idea": "Визуализация космической смертности и возвышенности данных"
   },
   "21": {
+    "id": 21,
     "color": "#1A1208",
     "image": "https://roberthodgin.com/solar/wp-content/uploads/2023/03/tripleTransit-1_b.jpg",
     "imageOptions": [
@@ -327,6 +348,7 @@
     "idea": "Слияние ностальгии по ранней астрофотографии с эпохой блокчейна"
   },
   "22": {
+    "id": 22,
     "color": "#0A1420",
     "image": "https://mdfschool.ru/images/news/intext_pictures/1637598392.png",
     "imageOptions": [
@@ -343,6 +365,7 @@
     "idea": "Прямой контакт светочувствительного материала с лунным светом и природными стихиями"
   },
   "23": {
+    "id": 23,
     "color": "#0A0A14",
     "image": "https://alexandrapaperno.com/wp-content/uploads/2016/10/DSC0459-Edit.jpg",
     "imageOptions": [

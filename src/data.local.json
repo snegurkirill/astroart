@@ -1,0 +1,361 @@
+{
+  "1": {
+    "color": "#5C3A1E",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Lascaux_II%2C_Salle_des_taureaux-4970.jpg",
+    "imageOptions": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/07/Lascaux_II%2C_Salle_des_taureaux-4970.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/fc/Lascaux_II%2C_Salle_des_taureaux-4971.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1e/Lascaux_painting.jpg"
+    ],
+    "description": "В сводчатом зале Ласко, при свете факела, бизоны и туры несутся по стене в вечном галопе. Среди этих фигур исследователи находят скопления точек, которые, по их мнению, соответствуют созвездию Плеяд, — возможно, древнейшая известная нам карта неба. Здесь нет границы между охотой и астрономией, земным и небесным: они сплетены в единый ритм, вбитый в камень рукой, которая уже знала, что звёзды возвращаются. Стоять перед этими росписями — значит ощутить, как далеко назад уходит человеческое желание понять космос.",
+    "title": "Chambre des Taureaux (constellation motif)",
+    "artist": "Unknown / Paleolithic",
+    "collective": null,
+    "type": "Cave painting",
+    "medium": "Ochre and charcoal on limestone",
+    "idea": "Ранние наблюдения за небом; связь животной мифологии со звёздными узорами"
+  },
+  "2": {
+    "color": "#2A4A3A",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Himmelsscheibe_von_Nebra_-_Landesmuseum_f%C3%BCr_Vorgeschichte_in_Halle_-_HD.jpg",
+    "imageOptions": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/2e/Himmelsscheibe_von_Nebra_-_Landesmuseum_f%C3%BCr_Vorgeschichte_in_Halle_-_HD.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c6/Himmelsscheibe_von_Nebra_-_Landesmuseum_f%C3%BCr_Vorgeschichte_in_Halle.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/96/1600_Himmelsscheibe_von_Nebra_sky_disk_anagoria.jpg"
+    ],
+    "description": "Тёмно-зелёный от патины диск диаметром тридцать сантиметров хранит золотые серп луны, полный диск солнца и рассыпанные звёзды — вероятно, Плеяды. Это первое бесспорное изображение неба как объекта умственного труда: кто-то в бронзовом веке не просто смотрел на небо, но пытался его удержать в металле. Диск найден в земле близ Небры, в Германии, завёрнутым среди мечей и топоров — погребальный дар или инструмент власти, объединявший сельскохозяйственное и сакральное время. В нём — зарождение того, что мы теперь называем астрономией.",
+    "title": "Himmelsscheibe von Nebra",
+    "artist": "Unknown / Bronze Age",
+    "collective": null,
+    "type": "Artifact",
+    "medium": "Бронзовый диск с золотыми инкрустациями",
+    "idea": "Синхронизация лунно-солнечных календарей; соединение эмпирического наблюдения с мифом"
+  },
+  "3": {
+    "color": "#1A0A00",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Astronomical_Ceiling%2C_Tomb_of_Senenmut_MET_DT207429.jpg",
+    "imageOptions": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/43/Astronomical_Ceiling%2C_Tomb_of_Senenmut_MET_DT207429.jpg",
+      "https://www.metmuseum.org/toah/images/hb/hb_48.149.7.jpg"
+    ],
+    "description": "На потолке гробницы Сененмута — главного архитектора царицы Хатшепсут — небо разложено в строгие геометрические регистры: северные созвездия в виде бегущих фигур, южные светила в виде богов-покровителей. Это не декорация, а рабочий инструмент: умерший должен ориентироваться в загробном мире так же точно, как жрец — в ритуальном году. Небесная карта написана за полтора тысячелетия до нашей эры, но содержит данные, которые астрономы XX века использовали для уточнения египетского календаря. Смерть здесь — просто ещё одно путешествие, требующее хорошей карты.",
+    "title": "Astronomical Ceiling of Senenmut's Tomb",
+    "artist": "Unknown / Ancient Egyptian",
+    "collective": null,
+    "type": "Wall painting",
+    "medium": "Роспись по штукатурке",
+    "idea": "Картография времени для ритуальной навигации загробного мира"
+  },
+  "4": {
+    "color": "#6B4C2A",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Dendera_zodiac_louvre.JPG",
+    "imageOptions": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/8f/Dendera_zodiac_louvre.JPG",
+      "https://collections.louvre.fr/media/cache/large/0000000021/0000028871/0000068579_OG.JPG",
+      "https://www.denderazodiac.com/graphics/DZ_image_A0_1100x1100.png"
+    ],
+    "description": "Круглый потолочный рельеф из храма Хатхор в Дендере — это первый в мире зодиак, изображённый в виде замкнутого круга, совмещающего египетские деканы с греческими знаками. Когда Наполеоновские войска увезли его в Париж в 1821 году, он произвёл сенсацию: люди думали, что ему десятки тысяч лет. Сегодня он хранится в Лувре и по-прежнему гипнотизирует своей плотностью — в каждом квадратном сантиметре теснятся боги, созвездия, планеты. Две традиции встретились и создали то, чего не существовало ни в одной из них по отдельности.",
+    "title": "Zodiaque de Dendéra",
+    "artist": "Unknown / Ptolemaic Egyptian",
+    "collective": null,
+    "type": "Рельеф",
+    "medium": "Барельеф из песчаника",
+    "idea": "Эллинистически-египетский синтез космологии и гадания"
+  },
+  "5": {
+    "color": "#8B6914",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/MulApin-BritishMuseum.jpg",
+    "imageOptions": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/41/MulApin-BritishMuseum.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/MulApin-BritishMuseum.jpg/800px-MulApin-BritishMuseum.jpg"
+    ],
+    "description": "MUL.APIN — это не одна табличка, а серия, свод правил звёздного неба, который вавилонские жрецы переписывали на протяжении столетий. Здесь перечислены семьдесят с лишним звёзд и созвездий, расписаны даты их восходов, сроки сельскохозяйственного календаря, предсказания по поведению небесных тел. Каждая строка — уравнение между небом и землёй, между богом и урожаем. Самые хорошо сохранившиеся экземпляры хранятся в Британском музее и по-прежнему читаются как рабочая инструкция к миру.",
+    "title": "MUL.APIN Tablets",
+    "artist": "Unknown / Babylonian",
+    "collective": null,
+    "type": "Артефакт",
+    "medium": "Клинописные глиняные таблички",
+    "idea": "Стандартизированный небесный каталог для ритуальных и научных целей"
+  },
+  "6": {
+    "color": "#C8C8B4",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Farnese_Atlas.jpg",
+    "imageOptions": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/f3/Farnese_Atlas.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/8c/MAN_Atlante_fronte_1040572.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/3/39/02_10_2024_Photo_Paolo_Villa-Napoli-mann-Museo_Archeologico-FO232558bis-Arte_Romana-Atlante_Farnese_Atlas-%286374%29-marmo.jpg"
+    ],
+    "description": "Атлант склонился под мраморным небесным шаром высотой больше двух метров — и на этом шаре, впервые в сохранившемся виде, мы видим все сорок восемь классических созвездий в скульптурном рельефе. Это не просто мифологическая сцена: шар является древнейшей дошедшей до нас трёхмерной небесной картой, содержащей данные, которые учёные относят к греческому астроному Гиппарху II века до нашей эры. Атлант несёт не просто физическую тяжесть — он несёт всё накопленное знание о мироздании. Скульптура хранится в Национальном археологическом музее Неаполя.",
+    "title": "Atlante Farnese",
+    "artist": "Unknown / Roman",
+    "collective": null,
+    "type": "Скульптура",
+    "medium": "Мрамор",
+    "idea": "Космос как бремя знания"
+  },
+  "7": {
+    "color": "#1C1A2E",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Dunhuang_Star_Atlas_-_complete.jpg",
+    "imageOptions": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/7d/Dunhuang_Star_Atlas_-_complete.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/42/Dunhuang_star_map.jpg"
+    ],
+    "description": "Этот свиток из пещер Дуньхуана — старейшая из известных полных звёздных карт в мире: тысяча триста сорок пять звёзд в двухстах пятидесяти семи созвездиях, нанесённых тремя разными цветами тремя разными школами китайской астрономии. Каждая школа имела свои названия, свои мифы, свою систему отсчёта — и кто-то в эпоху Тан сел и объединил их все в тринадцать листов, разворачивающихся один за другим. Когда в 1907 году Аурел Стейн нашёл свиток в замурованной пещере, где он пролежал около тысячи лет, то обнаружил не просто исторический документ — но целый способ видеть небо.",
+    "title": "Dunhuang Star Chart",
+    "artist": "Unknown / Tang Dynasty Chinese",
+    "collective": null,
+    "type": "Рукопись",
+    "medium": "Тушь на бумаге из тутового шелкопряда",
+    "idea": "Синтез конкурирующих китайских астрономических традиций"
+  },
+  "8": {
+    "color": "#1A2A4A",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/db/Kitab_suwar_al-kawakib_al-thabita_%28Book_of_the_Images_of_the_Fixed_Stars%29_of_al-Sufi_MET_21317.jpg",
+    "imageOptions": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/db/Kitab_suwar_al-kawakib_al-thabita_%28Book_of_the_Images_of_the_Fixed_Stars%29_of_al-Sufi_MET_21317.jpg",
+      "https://pdr-assets.b-cdn.net/collections/fixed-stars/fixed-stars-1.jpg",
+      "https://pdr-assets.b-cdn.net/collections/fixed-stars/fixed-stars-12.jpg"
+    ],
+    "description": "Персидский астроном ас-Суфи взял «Альмагест» Птолемея и не просто перевёл его, а проверил каждое созвездие собственным взглядом, исправив ошибки и добавив арабские народные названия звёзд. Его рукопись — одна из немногих великих книг, где красота неотделима от точности: каждое созвездие нарисовано дважды, как оно выглядит на небесном глобусе и как его видит наблюдатель снизу. Именно в этом тексте впервые описана Туманность Андромеды — «маленькое облачко» — старейшее в истории упоминание галактики за пределами Млечного Пути. Копии рукописи хранятся в крупнейших библиотеках мира.",
+    "title": "Kitāb ṣuwar al-kawākib al-thābita (Book of Fixed Stars)",
+    "artist": "Абд ар-Рахман ас-Суфи",
+    "collective": null,
+    "type": "Иллюминированная рукопись",
+    "medium": "Чернила, золото и пигменты на бумаге",
+    "idea": "Гармонизация греческой науки с исламскими наблюдениями"
+  },
+  "9": {
+    "color": "#1A2A5A",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Giotto_-_Scrovegni_-_-18-_-_Adoration_of_the_Magi.jpg",
+    "imageOptions": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/f9/Giotto_-_Scrovegni_-_-18-_-_Adoration_of_the_Magi.jpg",
+      "https://www.wga.hu/art/g/giotto/padova/3christ/chris02.jpg"
+    ],
+    "description": "Над яслями, где Мария держит младенца, Джотто написал не абстрактную звезду Вифлеема, а настоящую комету с хвостом — почти наверняка под впечатлением от кометы Галлея, которую он наблюдал в 1301 году. Это первый момент в западном искусстве, когда небесное явление изображено с натуры, а не по канону. Капелла Скровеньи в Падуе — сама по себе космос: голубые своды с золотыми звёздами охватывают зрителя со всех сторон, и Вифлеемская комета летит в этом же синем небе. Шестьсот лет спустя Европейское космическое агентство назовёт свой зонд к комете Галлея именем Джотто.",
+    "title": "Поклонение волхвов (Cappella degli Scrovegni)",
+    "artist": "Джотто ди Бондоне",
+    "collective": null,
+    "type": "Фреска",
+    "medium": "Роспись по сырой штукатурке",
+    "idea": "Библейский нарратив, соединённый с реальной астрономией"
+  },
+  "10": {
+    "color": "#0A0A1A",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/56/Johannes_Hevelius_-_Orion.jpg",
+    "imageOptions": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/56/Johannes_Hevelius_-_Orion.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/43/Hev_11_fig_H_hercules_et_cerberus.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/0d/Canes_Venatici_Hevelius.jpg"
+    ],
+    "description": "Гевелий работал без телескопа — принципиально, из убеждения, что невооружённый глаз точнее. Его «Фирмаментум» содержит пятьдесят шесть двойных гравированных листов с созвездиями, изображёнными в зеркальном отражении — так, как они видны с внешней стороны небесного глобуса. Атлас вышел уже после смерти Гевелия, подготовленный к изданию его женой Элизабет. В нём астроном ввёл семь новых созвездий, некоторые из которых — например, Секстант и Лисичка — официально признаны по сей день. Это последний великий атлас домикроскопной астрономии и одновременно её лебединая песня.",
+    "title": "Firmamentum Sobiescianum, sive Uranographia",
+    "artist": "Ян Гевелий",
+    "collective": null,
+    "type": "Звёздный атлас",
+    "medium": "Гравюра на меди",
+    "idea": "Обновление каталога невооружённого глаза на заре телескопической эпохи"
+  },
+  "11": {
+    "color": "#1A1808",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg/1280px-Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg",
+    "imageOptions": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/88/Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg/1280px-Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg"
+    ],
+    "description": "Два молодых французских дипломата стоят по обе стороны от стола, уставленного символами учёности и власти: небесный глобус, лютня, книги, математические инструменты — весь арсенал ренессансного человека, покорившего природу. Но по полу стелется странная косая полоса, которую зритель поначалу принимает за деталь интерьера. Если встать под острым углом, она оборачивается черепом — искусной анаморфозой, вписанной в сердце торжества. Гольбейн не ставит под сомнение достижения разума; он лишь напоминает, что небесный глобус стоит рядом с тем, кто умрёт.",
+    "title": "The Ambassadors",
+    "artist": "Ганс Гольбейн Младший",
+    "collective": null,
+    "type": "Живопись",
+    "medium": "Масло и темпера на дубовой доске",
+    "idea": "Гуманистическое мастерство против космического memento mori"
+  },
+  "12": {
+    "color": "#1C1208",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Wright_of_Derby%2C_The_Orrery.jpg",
+    "imageOptions": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/d3/Wright_of_Derby%2C_The_Orrery.jpg",
+      "https://www.wikiart.org/en/App/Painting/image/joseph-wright/the-orrery-1766.jpg!Large.jpg"
+    ],
+    "description": "В центре тёмной комнаты светит механический оррери — крутится модель Солнечной системы, и вокруг неё собрались люди самых разных возрастов и состояний: дети, взрослые, учёный муж. Райт писал эту картину при свечах, и источника света на холсте почти не видно — лишь лица, высвеченные солнцем в миниатюре. Просвещение здесь буквально: свет разума, физический и метафорический, собирает общину зрителей вокруг модели космоса. Картина хранится в музее Дерби и по сей день остаётся одним из самых волнующих образов науки как опыта, разделяемого с другими.",
+    "title": "A Philosopher Lecturing on the Orrery",
+    "artist": "Джозеф Райт из Дерби",
+    "collective": null,
+    "type": "Живопись",
+    "medium": "Масло на холсте",
+    "idea": "Демократизация научного восхищения"
+  },
+  "13": {
+    "color": "#0D1640",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+    "imageOptions": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+    ],
+    "description": "Ван Гог написал «Звёздную ночь» из окна своей комнаты в психиатрической больнице Сен-Реми, и это видно в каждом мазке: небо не покоится, оно вращается, волнуется, дышит с той напряжённостью, которая граничит с болью. Одиннадцать звёздных водоворотов, луна, окружённая нимбом, и кипарис, тянущийся из деревни ввысь как молния. Художник писал брату, что ночное небо даёт ему больше, чем дневное, — в нём есть что-то, что нельзя объяснить, только почувствовать. Сегодня это самая узнаваемая картина в мире и одновременно один из самых искренних дневников расстройства, когда-либо написанных.",
+    "title": "The Starry Night",
+    "artist": "Винсент ван Гог",
+    "collective": null,
+    "type": "Живопись",
+    "medium": "Масло на холсте",
+    "idea": "Выражение мятущейся психики и духовного стремления"
+  },
+  "14": {
+    "color": "#1A1A1A",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Moonrise%2C_Hernandez%2C_New_Mexico.jpg",
+    "imageOptions": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e3/Moonrise%2C_Hernandez%2C_New_Mexico.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Moonrise%2C_Hernandez%2C_New_Mexico.jpg/1280px-Moonrise%2C_Hernandez%2C_New_Mexico.jpg"
+    ],
+    "description": "Адамс успел остановить машину, выбежать и снять за долю секунды до того, как свет изменился. На снимке — луна над белым крестом кладбища в маленьком нью-мексиканском городке, горы на горизонте и безоблачное небо, в котором небесное и земное существуют в одном кадре как равные. За сорок лет жизни Адамс напечатал более тысячи трёхсот копий этого изображения вручную, каждый раз ища в нём что-то новое. Оно стало символом американской фотографии, но прежде всего — доказательством того, что мгновение и вечность могут совпасть на полосе шоссе.",
+    "title": "Moonrise, Hernandez, New Mexico",
+    "artist": "Энсел Адамс",
+    "collective": null,
+    "type": "Фотография",
+    "medium": "Серебряно-желатиновый отпечаток",
+    "idea": "Вечное небо в контрасте со смертным пейзажем"
+  },
+  "15": {
+    "color": "#2A1808",
+    "image": "https://www.nevadaart.org/wp-content/uploads/2017/09/2018_Turrell_Hero.jpg",
+    "imageOptions": [
+      "https://www.nevadaart.org/wp-content/uploads/2017/09/2018_Turrell_Hero.jpg",
+      "https://www.nevadaart.org/wp-content/uploads/2017/09/2018_Turrell_001-995x796.jpg",
+      "https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/d9/3a/d93a3c32-bbf5-47d8-88ae-1e334d28704e/turrell-opener.jpg"
+    ],
+    "description": "С 1977 года Таррелл превращает потухший вулкан в Аризоне в сооружение, которое позволяет человеческому телу напрямую ощутить движение небесных тел. В туннелях, вырытых в вулканической породе, выровненных по солнечному, лунному и звёздному циклам, нет никакой технологии — только пространство, свет и время. Войдя в камеры, зритель теряет привычные ориентиры и начинает видеть небо как физическое присутствие, давящее на сетчатку. Это произведение, которое закончится не раньше, чем умрёт его создатель — и, возможно, позже.",
+    "title": "Roden Crater",
+    "artist": "Джеймс Таррелл",
+    "collective": null,
+    "type": "Лэнд-арт, обсерватория",
+    "medium": "Модифицированный вулканический кратер, туннели, камеры",
+    "idea": "Пейзаж как инструмент космологии невооружённого глаза"
+  },
+  "16": {
+    "color": "#050505",
+    "image": "https://live.staticflickr.com/3504/3742901291_bebd861272.jpg",
+    "imageOptions": [
+      "https://live.staticflickr.com/3504/3742901291_bebd861272.jpg",
+      "https://artsandculture.google.com/asset/infinity-dots-mirrored-room-yayoi-kusama/1wF4yttYzubvOw"
+    ],
+    "description": "Войдя в две чёрные двери, посетитель оказывается в пространстве, где разноцветные точки уходят в бесконечность в четырёх направлениях одновременно. Кусама создавала повторяющиеся паттерны как терапию от навязчивых галлюцинаций, которые преследовали её с детства, — и в итоге превратила личную психологическую стратегию в коллективный опыт растворения в пространстве. Здесь нет тела, есть только точки: ты тоже становишься точкой в этой бесконечной россыпи. Постоянная инсталляция в музее Mattress Factory в Питтсбурге работает без перерыва с 1996 года.",
+    "title": "Infinity Dots Mirrored Room",
+    "artist": "Яёи Кусама",
+    "collective": null,
+    "type": "Инсталляция",
+    "medium": "Наклейки с точками, ультрафиолетовые лампы, зеркала",
+    "idea": "Самоуничтожение внутри безграничной вселенной"
+  },
+  "17": {
+    "color": "#3A2800",
+    "image": "https://res.cloudinary.com/olafureliasson-net/image/private/q_auto:eco,c_fit,h_640,w_640/img/the-weather-project_8200.jpg",
+    "imageOptions": [
+      "https://res.cloudinary.com/olafureliasson-net/image/private/q_auto:eco,c_fit,h_640,w_640/img/the-weather-project_8200.jpg",
+      "https://res.cloudinary.com/olafureliasson-net/image/private/q_auto:eco,c_fit,h_640,w_640/img/the-weather-project_8199.jpg",
+      "https://res.cloudinary.com/olafureliasson-net/image/private/q_auto:eco,c_fit,h_640,w_640/img/the-weather-project_8196.jpg"
+    ],
+    "description": "В Турбинном зале лондонской Tate Modern Элиассон повесил полукруг из двухсот монохромных ламп и затянул потолок зеркальной фольгой. Мгла от туманогенераторов превращала зал в атмосферу — и тысячи людей ложились на пол, чтобы смотреть на своё отражение в зеркале потолка под искусственным солнцем. За пять месяцев работы инсталляцию посетили два миллиона человек. Это было не шоу, а вопрос: что такое солнце, если его можно сделать? Что такое природа, если мы её контролируем? Когда проект закончился, люди уходили неохотно.",
+    "title": "The Weather Project",
+    "artist": "Олафур Элиассон",
+    "collective": null,
+    "type": "Инсталляция",
+    "medium": "Монохромные лампы, дымовые машины, зеркальный потолок",
+    "idea": "Вопросы климата, восприятия и коллективного опыта"
+  },
+  "18": {
+    "color": "#0A0A14",
+    "image": "https://paglen.studio/wp-content/uploads/2020/06/Paglen-The_Last_Pictures-disk.jpg",
+    "imageOptions": [
+      "https://paglen.studio/wp-content/uploads/2020/06/Paglen-The_Last_Pictures-disk.jpg",
+      "https://paglen.studio/wp-content/uploads/2020/06/Paglen-The_Last_Pictures-03.jpg",
+      "https://paglen.studio/wp-content/uploads/2020/06/Paglen-The_Last_Pictures-01.jpg"
+    ],
+    "description": "Сто изображений, отобранных в беседах с учёными, философами и художниками, вытравлены на кремниевом диске размером с монету и прикреплены к внешней обшивке спутника EchoStar XVI, запущенного на геостационарную орбиту в 2012 году. Через несколько миллиардов лет, когда Солнце расширится, именно эти изображения будут последним физическим свидетельством существования человечества. Пэглен думал не о том, что красиво, а о том, что правдиво: здесь есть радиация в Неваде, нефтяные вышки, клетка для задержанных, улыбающийся ребёнок. Архив не как лучший портрет, а как честный.",
+    "title": "The Last Pictures",
+    "artist": "Тревор Пэглен",
+    "collective": null,
+    "type": "Концептуальное искусство / спутниковый артефакт",
+    "medium": "Нано-травление на кремниевом диске, золочёный корпус",
+    "idea": "Капсула времени цивилизации для далёкого будущего"
+  },
+  "19": {
+    "color": "#1A1A0A",
+    "image": "https://pub-def9ab096473429692fa64ce0ae78d6d.r2.dev/media/106b7d27ac1dcaaa/2400.jpeg",
+    "imageOptions": [
+      "https://pub-def9ab096473429692fa64ce0ae78d6d.r2.dev/media/106b7d27ac1dcaaa/2400.jpeg",
+      "https://pub-def9ab096473429692fa64ce0ae78d6d.r2.dev/media/e89dcf4ac5eb79b9/1280.jpeg",
+      "https://pub-def9ab096473429692fa64ce0ae78d6d.r2.dev/media/d0c80235c3867477/2400.jpeg"
+    ],
+    "description": "Девяносто девять роботизированных зеркал, расставленных на двух пятиметровых башнях и пятнадцатиметровой дорожке, весь день следят за солнцем, как подсолнухи. Отражённые пучки сходятся в облаке водяного тумана и в точке пересечения рождается второе солнце — светящийся нимб, висящий в воздухе посреди дня. Когда ветер меняется или облако закрывает солнце, нимб исчезает, и зеркала снова начинают искать свет. Это произведение существует только тогда, когда природа, технология и случай совпадают — и именно это совпадение есть его смысл.",
+    "title": "HALO",
+    "artist": null,
+    "collective": "Kimchi and Chips",
+    "type": "Инсталляция",
+    "medium": "99 роботизированных зеркал, вода, туман",
+    "idea": "Слияние вычислений, солнечной энергии и эфемерной оптики"
+  },
+  "20": {
+    "color": "#0A0A0A",
+    "image": "https://i0.wp.com/katiepaterson.org.uk/wp-content/uploads/2022/02/Katie_Paterson_All_the_Dead_Stars_7.jpg",
+    "imageOptions": [
+      "https://i0.wp.com/katiepaterson.org.uk/wp-content/uploads/2022/02/Katie_Paterson_All_the_Dead_Stars_7.jpg",
+      "https://i0.wp.com/katiepaterson.org.uk/wp-content/uploads/2022/02/Katie_Paterson_All_the_Dead_Stars_6-1.jpg",
+      "https://i0.wp.com/katiepaterson.org.uk/wp-content/uploads/2022/02/Katie_Paterson_All_the_Dead_Stars_2.jpg"
+    ],
+    "description": "Чёрный алюминиевый лист два на три метра — и на нём почти двадцать семь тысяч точек, каждая из которых соответствует мёртвой звезде, когда-либо зафиксированной человечеством: сверхновые, гамма-всплески, белые карлики, пульсары. Большинство из них угасли миллиарды лет назад, но мы узнали об этом лишь недавно — свет путешествует долго. Карта Патерсон — это некролог вселенной, написанный лазером на металле: строгий, холодный и бесконечно печальный. По центру горизонтальной полосой тянется Млечный Путь — и зритель стоит внутри него, среди всех этих смертей.",
+    "title": "All the Dead Stars",
+    "artist": "Кейти Патерсон",
+    "collective": null,
+    "type": "Скульптура / карта",
+    "medium": "Лазерная гравировка на анодированном алюминии",
+    "idea": "Визуализация космической смертности и возвышенности данных"
+  },
+  "21": {
+    "color": "#1A1208",
+    "image": "https://roberthodgin.com/solar/wp-content/uploads/2023/03/tripleTransit-1_b.jpg",
+    "imageOptions": [
+      "https://roberthodgin.com/solar/wp-content/uploads/2023/03/tripleTransit-1_b.jpg",
+      "https://roberthodgin.com/solar/wp-content/uploads/2023/03/dag_01.v2b.jpg",
+      "https://roberthodgin.com/solar/wp-content/uploads/2023/03/blue_eclipse_b.jpg"
+    ],
+    "description": "Каждое изображение в серии Solar Transits — это процедурно сгенерированное астрономическое событие, увиденное сквозь оптику XIX века: дагерротипная зернистость, мягкие ореолы, патина времени. Ходжин написал код на JavaScript и GLSL-шейдерах, который для каждого токена случайным образом выбирает планетарное выравнивание, орбитальные параметры и химию «эмульсии». Четыреста уникальных работ — и каждая претендует на то, чтобы быть документом наблюдения, которого никогда не было. Первые десять покупателей могли получить физический дагерротип, сделанный по мотивам своего изображения: цифровое искусство, материализованное через самую архаичную фотографическую технику.",
+    "title": "Solar Transits",
+    "artist": "Роберт Ходжин",
+    "collective": null,
+    "type": "Генеративное искусство / NFT",
+    "medium": "Алгоритмический код, GLSL-шейдеры",
+    "idea": "Слияние ностальгии по ранней астрофотографии с эпохой блокчейна"
+  },
+  "22": {
+    "color": "#0A1420",
+    "image": "https://mdfschool.ru/images/news/intext_pictures/1637598392.png",
+    "imageOptions": [
+      "https://mdfschool.ru/images/news/intext_pictures/1637598392.png",
+      "https://mdfschool.ru/images/news/intext_pictures/1637598580.png",
+      "https://mdfschool.ru/images/news/intext_pictures/1637598807.png"
+    ],
+    "description": "Лара Федотова погружает листы светочувствительной бумаги прямо в воду озёр — в тёмные лунные ночи, без камеры и объектива. Эмульсия соприкасается с водой, и лунный свет, преломлённый через рябь поверхности, химически отпечатывает себя на бумаге. Получившиеся лунограммы — не фотографии луны, а следы её присутствия, зафиксированные в момент прямого физического контакта неба с землёй. Серия была создана в заброшенных карьерах Кипра и московских водоёмах; художница показывала её в медиацентре «Зарядье», в ГЭС-2 и на Красноярской биеннале. Это одновременно концептуальный жест и нежная медитация о том, как природа пишет себя.",
+    "title": "Лунограммы",
+    "artist": "Лара Федотова",
+    "collective": null,
+    "type": "Фотография без камеры",
+    "medium": "Фотограмма на светочувствительной бумаге, озёрная вода",
+    "idea": "Прямой контакт светочувствительного материала с лунным светом и природными стихиями"
+  },
+  "23": {
+    "color": "#0A0A14",
+    "image": "https://alexandrapaperno.com/wp-content/uploads/2016/10/DSC0459-Edit.jpg",
+    "imageOptions": [
+      "https://alexandrapaperno.com/wp-content/uploads/2016/10/DSC0459-Edit.jpg",
+      "https://alexandrapaperno.com/wp-content/uploads/2016/10/DSC0467-Edit-3.jpg",
+      "https://alexandrapaperno.com/wp-content/uploads/2016/11/SAO_01.jpg"
+    ],
+    "description": "В 1922 году Международный астрономический союз официально упразднил пятьдесят одно созвездие — те, что не вписывались в новую стандартизированную систему. Александра Паперно нашла их в архивных каталогах и нарисовала каждое: крупные листы, тёмные, сдержанные, с той особенной тишиной, которая бывает у мест, откуда ушли люди. Её «Отмененные созвездия» — это портреты жертв бюрократии неба, названных и забытых. Среди них есть «Мраморная скульптура», «Хвост лисицы», «Малый Рак». Серия была показана в галерее Volker Diehl в Берлине и в Датском Kunsthal 44Møen, а два листа из серии «Звёздные карты» хранятся в собрании Третьяковской галереи.",
+    "title": "«Отмененные созвездия»",
+    "artist": "Александра Паперно",
+    "collective": null,
+    "type": "Живопись / рисунок",
+    "medium": "Чернила и порошок графита на бумаге",
+    "idea": "Границы, проведённые человечеством даже на небе; судьба знания, признанного лишним"
+  }
+}

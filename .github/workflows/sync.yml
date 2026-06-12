@@ -1,0 +1,54 @@
+name: Sync from Notion
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Run sync script
+        run: node scripts/sync-notion.js
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DB_ID: ${{ secrets.NOTION_DB_ID }}
+
+      - name: Commit if changed
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data.js
+          if git diff --staged --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "Nothing changed."
+          else
+            git commit -m "sync: update from Notion [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+            git push
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Pushed updated data.js"
+          fi
+
+      - name: Summary
+        run: |
+          if [ "${{ steps.commit.outputs.changed }}" = "true" ]; then
+            echo "### ✅ Synced and deployed" >> $GITHUB_STEP_SUMMARY
+            echo "data.js updated from Notion and pushed. GitHub Pages will rebuild in ~30s." >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "🔗 [Open live site](https://snegurkirill.github.io/astroart/)" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "### ☑️ Already up to date" >> $GITHUB_STEP_SUMMARY
+            echo "No changes found in Notion — data.js unchanged." >> $GITHUB_STEP_SUMMARY
+          fi

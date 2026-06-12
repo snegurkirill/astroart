@@ -533,8 +533,9 @@
   "30": {
     "id": 30,
     "color": "#0A1420",
-    "image": "images/30-fedorova/01-1637598392.png",
+    "image": "images/30-fedorova/00.jpg",
     "imageOptions": [
+      "images/30-fedorova/00.jpg",
       "images/30-fedorova/01-1637598392.png",
       "images/30-fedorova/02-1637598580.png",
       "images/30-fedorova/03-1637598807.png"

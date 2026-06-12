@@ -29,15 +29,17 @@ export default function Observation({ item }) {
         aspectRatio: '4/3',
         overflow: 'hidden',
       }}>
-        {item.image ? (
-          <img
-            src={item.image}
-            alt={item.title}
-            style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
-          />
-        ) : (
-          <div style={{ width: '100%', height: '100%', background: item.color }} />
-        )}
+        {/* Color always visible; image fades in on top once loaded */}
+        <div style={{ width: '100%', height: '100%', background: item.color, position: 'relative' }}>
+          {item.image && (
+            <img
+              src={item.image}
+              alt={item.title}
+              fetchPriority="high"
+              style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block', position: 'absolute', inset: 0 }}
+            />
+          )}
+        </div>
       </div>
 
       <article style={{

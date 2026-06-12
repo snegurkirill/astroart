@@ -25,8 +25,8 @@ function CardMesh({ item, index, cameraZ, onSelect }) {
   const isVisible = opacity > 0.01
   const isActive = effectiveZ > -Z_SPACING * 0.55 && effectiveZ < Z_SPACING * 0.35
   const xSign = index % 2 === 0 ? 1 : -1
-  // Only mount <img> when card is within ~5 positions of camera; farther cards show color placeholder
-  const loadImg = ez > -5
+  // Only mount <img> when card is within ~8 positions of camera; farther cards show color placeholder
+  const loadImg = ez > -8
 
   return (
     <div

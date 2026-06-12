@@ -187,7 +187,7 @@ async function main() {
       const collective = over.collective ?? null
       const type       = over.type       ?? notionType
       const medium     = over.medium     ?? notionMedium
-      const year       = over.year       ?? getText(p['Year (approx.)'])
+      const year       = over.year       ?? getText(p['Year']) ?? getText(p['Year (approx.)'])
       const idea       = over.idea       ?? getText(p['Idea or Message'])
       const description= over.description ?? ''
       const sources    = parseSources(getText(p['Source']))

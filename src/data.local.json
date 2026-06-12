@@ -616,8 +616,11 @@
   "34": {
     "id": 34,
     "color": "#1c1c1e",
-    "image": null,
-    "imageOptions": [],
+    "image": "images/34-chernyshev/1artwingallery-vladimir-chernyshev-untitled.8-from-the-series-coordinate-system-2024.jpg",
+    "imageOptions": [
+      "images/34-chernyshev/1artwingallery-vladimir-chernyshev-untitled.8-from-the-series-coordinate-system-2024.jpg",
+      "images/34-chernyshev/artwingallery-vladimir-chernyshev-untitled.-from-the-series-coordinate-system-2023.jpg"
+    ],
     "title": "Untitled.8. From the series «Coordinate System»",
     "artist": "Vladimir Chernyshev",
     "type": "Графика",

@@ -47,6 +47,7 @@ function main() {
       year:         item.year         ?? '',
       idea:         item.idea         ?? '',
       description:  item.description  ?? '',
+      notes:        item.notes        ?? '',
       color:        item.color        ?? '#C8D5C0',
       image:        item.image        ?? null,
       imageOptions: item.imageOptions ?? [],

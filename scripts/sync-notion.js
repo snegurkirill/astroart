@@ -94,6 +94,42 @@ function parseSources(raw) {
   return raw.split(/\n+/).map(s => s.trim()).filter(s => s.startsWith('http'))
 }
 
+// ── Page body (notes) ─────────────────────────────────────────────────────────
+
+async function fetchPageNotes(pageId) {
+  const res = await fetch(`https://api.notion.com/v1/blocks/${pageId}/children?page_size=100`, {
+    headers: HEADERS,
+  })
+  if (!res.ok) return ''
+  const data = await res.json()
+  return blocksToText(data.results)
+}
+
+function blockText(block) {
+  const rt = block[block.type]?.rich_text
+  return rt ? rt.map(t => t.plain_text).join('') : ''
+}
+
+function blocksToText(blocks) {
+  return blocks
+    .map(block => {
+      switch (block.type) {
+        case 'paragraph':          return blockText(block)
+        case 'heading_1':          return `# ${blockText(block)}`
+        case 'heading_2':          return `## ${blockText(block)}`
+        case 'heading_3':          return `### ${blockText(block)}`
+        case 'bulleted_list_item': return `• ${blockText(block)}`
+        case 'numbered_list_item': return `${blockText(block)}`
+        case 'quote':              return `"${blockText(block)}"`
+        case 'divider':            return '---'
+        default:                   return ''
+      }
+    })
+    .filter(Boolean)
+    .join('\n')
+    .trim()
+}
+
 // ── Local overrides ───────────────────────────────────────────────────────────
 
 function readLocal() {
@@ -127,8 +163,9 @@ async function main() {
 
   const local = readLocal()
 
-  const items = pages
-    .map(page => {
+  console.log('📝  Fetching page notes...')
+  const items = (await Promise.all(
+    pages.map(async page => {
       const p = page.properties
 
       const idRaw = getText(p['#'])
@@ -140,6 +177,9 @@ async function main() {
       const name = getText(p['Name']) || ''
       const { artist: notionArtist, title: notionTitle } = parseName(name)
       const { type: notionType, medium: notionMedium } = parseTypeMedium(getText(p['Type / Medium']))
+
+      // Fetch page body (notes written in Notion page content)
+      const notes = await fetchPageNotes(page.id)
 
       // Local overrides win for all text fields (until Notion has Russian content)
       const title      = over.title      ?? notionTitle
@@ -162,12 +202,14 @@ async function main() {
         year,
         idea,
         description,
+        notes,
         color:        over.color        ?? '#C8D5C0',
         image:        over.image        ?? null,
         imageOptions: over.imageOptions ?? [],
         sources,
       }
     })
+  ))
     .filter(Boolean)
     .sort((a, b) => a.id - b.id)
 

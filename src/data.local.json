@@ -40,7 +40,8 @@
     "color": "#1A0A00",
     "image": "images/03-senenmut/01-Astronomical_Ceiling_2C_Tomb_of_Senenmut_MET_DT207429.jpg",
     "imageOptions": [
-      "images/03-senenmut/01-Astronomical_Ceiling_2C_Tomb_of_Senenmut_MET_DT207429.jpg"
+      "images/03-senenmut/01-Astronomical_Ceiling_2C_Tomb_of_Senenmut_MET_DT207429.jpg",
+      "images/03-senenmut/02-DT207429.jpg"
     ],
     "description": "На потолке гробницы Сененмута — главного архитектора царицы Хатшепсут — небо разложено в строгие геометрические регистры: северные созвездия в виде бегущих фигур, южные светила в виде богов-покровителей. Это не декорация, а рабочий инструмент: умерший должен ориентироваться в загробном мире так же точно, как жрец — в ритуальном году. Небесная карта написана за полтора тысячелетия до нашей эры, но содержит данные, которые астрономы XX века использовали для уточнения египетского календаря. Смерть здесь — просто ещё одно путешествие, требующее хорошей карты.",
     "title": "Astronomical Ceiling of Senenmut's Tomb",
@@ -159,9 +160,11 @@
   "10": {
     "id": 10,
     "color": "#2c1810",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/01/The_Celestial_Globe-Southern_Hemisphere_MET_DP102236.jpg",
+    "image": "images/10-durer/01-The_Celestial_Globe-Southern_Hemisphere_MET_DP102236.jpg",
     "imageOptions": [
-      "https://upload.wikimedia.org/wikipedia/commons/0/01/The_Celestial_Globe-Southern_Hemisphere_MET_DP102236.jpg"
+      "images/10-durer/01-The_Celestial_Globe-Southern_Hemisphere_MET_DP102236.jpg",
+      "images/10-durer/02-The_Celestial_Map-_Northern_Hemisphere_MET_DP102235.jpg",
+      "images/10-durer/03-Albrecht_D_C3_BCrer_-_The_Southern_Hemisphere_of_the_Celesti.jpg"
     ],
     "title": "Imagines coeli Meridionales",
     "artist": "Albrecht Dürer",
@@ -195,9 +198,10 @@
   },
   "12": {
     "color": "#1a2030",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Galileo%27s_sketches_of_the_moon.png",
+    "image": "images/12-galileo/01-Galileo_27s_sketches_of_the_moon.png",
     "imageOptions": [
-      "https://upload.wikimedia.org/wikipedia/commons/7/7b/Galileo%27s_sketches_of_the_moon.png"
+      "images/12-galileo/01-Galileo_27s_sketches_of_the_moon.png",
+      "images/12-galileo/02-Houghton_IC6.G1333.610sa_-_Sidereus_nuncius.jpg"
     ],
     "title": "Sidereus Nuncius — Moon Drawings",
     "artist": "Galileo Galilei",
@@ -216,11 +220,11 @@
   "13": {
     "id": 13,
     "color": "#0A0A1A",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/56/Johannes_Hevelius_-_Orion.jpg",
+    "image": "images/13-hevelius/01-Johannes_Hevelius_-_Orion.jpg",
     "imageOptions": [
-      "https://upload.wikimedia.org/wikipedia/commons/5/56/Johannes_Hevelius_-_Orion.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/4/43/Hev_11_fig_H_hercules_et_cerberus.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/0/0d/Canes_Venatici_Hevelius.jpg"
+      "images/13-hevelius/01-Johannes_Hevelius_-_Orion.jpg",
+      "images/13-hevelius/02-Hev_11_fig_H_hercules_et_cerberus.jpg",
+      "images/13-hevelius/03-Canes_Venatici_Hevelius.jpg"
     ],
     "description": "Гевелий работал без телескопа — принципиально, из убеждения, что невооружённый глаз точнее. Его «Фирмаментум» содержит пятьдесят шесть двойных гравированных листов с созвездиями, изображёнными в зеркальном отражении — так, как они видны с внешней стороны небесного глобуса. Атлас вышел уже после смерти Гевелия, подготовленный к изданию его женой Элизабет. В нём астроном ввёл семь новых созвездий, некоторые из которых — например, Секстант и Лисичка — официально признаны по сей день. Это последний великий атлас домикроскопной астрономии и одновременно её лебединая песня.",
     "title": "Firmamentum Sobiescianum, sive Uranographia",
@@ -234,8 +238,9 @@
   "14": {
     "id": 14,
     "color": "#1C1208",
-    "image": "images/14-wright-derby/01-wright-orrery.jpg",
+    "image": "images/14-wright-derby/01-1280px-Wright_of_Derby_2C_The_Orrery.jpg",
     "imageOptions": [
+      "images/14-wright-derby/01-1280px-Wright_of_Derby_2C_The_Orrery.jpg",
       "images/14-wright-derby/01-wright-orrery.jpg"
     ],
     "description": "В центре тёмной комнаты светит механический оррери — крутится модель Солнечной системы, и вокруг неё собрались люди самых разных возрастов и состояний: дети, взрослые, учёный муж. Райт писал эту картину при свечах, и источника света на холсте почти не видно — лишь лица, высвеченные солнцем в миниатюре. Просвещение здесь буквально: свет разума, физический и метафорический, собирает общину зрителей вокруг модели космоса. Картина хранится в музее Дерби и по сей день остаётся одним из самых волнующих образов науки как опыта, разделяемого с другими.",
@@ -249,8 +254,9 @@
   },
   "15": {
     "color": "#0d1520",
-    "image": "images/15-turner/01-Joseph_Mallord_William_Turner_-_Fishermen_at_Sea_-_Google_Ar.jpg",
+    "image": "images/15-turner/01-1280px-William_Turner_-_Fishermen_at_Sea.jpg",
     "imageOptions": [
+      "images/15-turner/01-1280px-William_Turner_-_Fishermen_at_Sea.jpg",
       "images/15-turner/01-Joseph_Mallord_William_Turner_-_Fishermen_at_Sea_-_Google_Ar.jpg"
     ],
     "title": "Fishermen at Sea",
@@ -269,9 +275,10 @@
   },
   "16": {
     "color": "#808070",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/View_from_the_Window_at_Le_Gras%2C_Joseph_Nic%C3%A9phore_Ni%C3%A9pce.jpg",
+    "image": "images/16-niepce/02-1280px-View_from_the_Window_at_Le_Gras_2C_Joseph_Nic_C3_A9ph.jpg",
     "imageOptions": [
-      "https://upload.wikimedia.org/wikipedia/commons/5/5c/View_from_the_Window_at_Le_Gras%2C_Joseph_Nic%C3%A9phore_Ni%C3%A9pce.jpg"
+      "images/16-niepce/02-1280px-View_from_the_Window_at_Le_Gras_2C_Joseph_Nic_C3_A9ph.jpg",
+      "images/16-niepce/03-1280px-View_from_the_Window_at_Le_Gras_2C_by_Joseph_Nicephor.jpg"
     ],
     "title": "Vue de la fenêtre du Gras",
     "artist": "Joseph Nicéphore Niépce",
@@ -287,9 +294,9 @@
   },
   "17": {
     "color": "#2a2a2a",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/34/John_W_Draper-The_first_Moon_Photograph_1840.jpg",
+    "image": "images/17-draper/02-1280px-John_W_Draper-The_first_Moon_Photograph_1840.jpg",
     "imageOptions": [
-      "https://upload.wikimedia.org/wikipedia/commons/3/34/John_W_Draper-The_first_Moon_Photograph_1840.jpg"
+      "images/17-draper/02-1280px-John_W_Draper-The_first_Moon_Photograph_1840.jpg"
     ],
     "title": "Первая фотография Луны",
     "artist": "John William Draper",
@@ -305,8 +312,9 @@
   },
   "18": {
     "color": "#f5a623",
-    "image": "images/18-fizeau/02-1851_07_28_Berkowski.jpg",
+    "image": "images/18-fizeau/01-1851_07_28_Berkowski.jpg",
     "imageOptions": [
+      "images/18-fizeau/01-1851_07_28_Berkowski.jpg",
       "images/18-fizeau/02-1851_07_28_Berkowski.jpg"
     ],
     "title": "Первая фотография Солнца",
@@ -324,8 +332,9 @@
   "19": {
     "id": 19,
     "color": "#0D1640",
-    "image": "images/19-van-gogh/01-vangogh-starry-night.jpg",
+    "image": "images/19-van-gogh/01-1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
     "imageOptions": [
+      "images/19-van-gogh/01-1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
       "images/19-van-gogh/01-vangogh-starry-night.jpg",
       "images/19-van-gogh/02-1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
     ],
@@ -341,8 +350,9 @@
   "20": {
     "id": 20,
     "color": "#1A1A1A",
-    "image": "images/20-ansel-adams/02-1280px-Moonrise_2C_Hernandez_2C_New_Mexico.jpg",
+    "image": "images/20-ansel-adams/01-1280px-Moonrise_2C_Hernandez_2C_New_Mexico.jpg",
     "imageOptions": [
+      "images/20-ansel-adams/01-1280px-Moonrise_2C_Hernandez_2C_New_Mexico.jpg",
       "images/20-ansel-adams/02-1280px-Moonrise_2C_Hernandez_2C_New_Mexico.jpg"
     ],
     "description": "Адамс успел остановить машину, выбежать и снять за долю секунды до того, как свет изменился. На снимке — луна над белым крестом кладбища в маленьком нью-мексиканском городке, горы на горизонте и безоблачное небо, в котором небесное и земное существуют в одном кадре как равные. За сорок лет жизни Адамс напечатал более тысячи трёхсот копий этого изображения вручную, каждый раз ища в нём что-то новое. Оно стало символом американской фотографии, но прежде всего — доказательством того, что мгновение и вечность могут совпасть на полосе шоссе.",
@@ -429,8 +439,9 @@
   "25": {
     "id": 25,
     "color": "#050505",
-    "image": "images/25-kusama/01-3742901291_bebd861272.jpg",
+    "image": "images/25-kusama/01-1065929015_20f5c3475a.jpg",
     "imageOptions": [
+      "images/25-kusama/01-1065929015_20f5c3475a.jpg",
       "images/25-kusama/01-3742901291_bebd861272.jpg",
       "images/25-kusama/03-1065929015_20f5c3475a.jpg"
     ],

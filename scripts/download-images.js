@@ -8,6 +8,7 @@ import { join, dirname, extname, basename } from 'path'
 import { fileURLToPath } from 'url'
 import sharp from 'sharp'
 
+
 const __dir = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(__dir, '..')
 const IMAGES_DIR = join(ROOT, 'public', 'images')
@@ -17,23 +18,31 @@ const MAX_PX = 2000
 const MAX_BYTES = 2 * 1024 * 1024 // 2MB
 
 // Additional URLs found through research (supplements existing imageOptions)
+// Uses Wikimedia thumbnail CDN (thumb/) for large files that exceed rate limits on full-res
 const EXTRA_URLS = {
-  3:  ['https://upload.wikimedia.org/wikipedia/commons/4/43/Astronomical_Ceiling%2C_Tomb_of_Senenmut_MET_DT207429.jpg'],
+  3:  ['https://upload.wikimedia.org/wikipedia/commons/4/43/Astronomical_Ceiling%2C_Tomb_of_Senenmut_MET_DT207429.jpg',
+       'https://images.metmuseum.org/CRDImages/eg/original/DT207429.jpg',
+       'https://collectionapi.metmuseum.org/api/collection/v1/iiif/551786/1204855/main-image'],
   4:  ['https://upload.wikimedia.org/wikipedia/commons/4/41/MulApin-BritishMuseum.jpg'],
   7:  ['https://upload.wikimedia.org/wikipedia/commons/7/7d/Dunhuang_Star_Atlas_-_complete.jpg'],
+  8:  ['https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Abd_al-Rahman_al-Sufi_Orion.jpg/1280px-Abd_al-Rahman_al-Sufi_Orion.jpg'],
   9:  ['https://upload.wikimedia.org/wikipedia/commons/f/f9/Giotto_-_Scrovegni_-_-18-_-_Adoration_of_the_Magi.jpg'],
   10: ['https://upload.wikimedia.org/wikipedia/commons/b/b3/The_Celestial_Map-_Northern_Hemisphere_MET_DP102235.jpg',
        'https://upload.wikimedia.org/wikipedia/commons/5/59/Albrecht_D%C3%BCrer_-_The_Southern_Hemisphere_of_the_Celestial_Globe_-_WGA7196.jpg'],
   11: ['https://upload.wikimedia.org/wikipedia/commons/8/88/Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg'],
   12: ['https://upload.wikimedia.org/wikipedia/commons/4/41/Houghton_IC6.G1333.610sa_-_Sidereus_nuncius.jpg'],
-  14: ['https://upload.wikimedia.org/wikipedia/commons/d/d3/Wright_of_Derby%2C_The_Orrery.jpg'],
-  15: ['https://upload.wikimedia.org/wikipedia/commons/4/48/William_Turner_-_Fishermen_at_Sea.jpg'],
-  16: ['https://upload.wikimedia.org/wikipedia/commons/0/0e/View_from_the_Window_at_Le_Gras%2C_Joseph_Nic%C3%A9phore_Ni%C3%A9pce%2C_uncompressed_UMN_source.png',
-       'https://upload.wikimedia.org/wikipedia/commons/1/12/View_from_the_Window_at_Le_Gras%2C_by_Joseph_Nicephore_Niepce%2C_1826_or_1827%2C_France_-_Harry_Ransom_Center_-_University_of_Texas_at_Austin_-_DSC08424.jpg'],
-  17: ['https://upload.wikimedia.org/wikipedia/commons/d/db/View_of_the_Moon_by_John_Adams_Whipple_1852.jpg'],
+  14: ['https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Wright_of_Derby%2C_The_Orrery.jpg/1280px-Wright_of_Derby%2C_The_Orrery.jpg',
+       'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Wright_of_Derby%2C_The_Orrery.jpg/640px-Wright_of_Derby%2C_The_Orrery.jpg'],
+  15: ['https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/William_Turner_-_Fishermen_at_Sea.jpg/1280px-William_Turner_-_Fishermen_at_Sea.jpg',
+       'https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/William_Turner_-_Fishermen_at_Sea.jpg/640px-William_Turner_-_Fishermen_at_Sea.jpg'],
+  16: ['https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/View_from_the_Window_at_Le_Gras%2C_Joseph_Nic%C3%A9phore_Ni%C3%A9pce.jpg/1280px-View_from_the_Window_at_Le_Gras%2C_Joseph_Nic%C3%A9phore_Ni%C3%A9pce.jpg',
+       'https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/View_from_the_Window_at_Le_Gras%2C_by_Joseph_Nicephore_Niepce%2C_1826_or_1827%2C_France_-_Harry_Ransom_Center_-_University_of_Texas_at_Austin_-_DSC08424.jpg/1280px-View_from_the_Window_at_Le_Gras%2C_by_Joseph_Nicephore_Niepce%2C_1826_or_1827%2C_France_-_Harry_Ransom_Center_-_University_of_Texas_at_Austin_-_DSC08424.jpg'],
+  17: ['https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/John_W_Draper-The_first_Moon_Photograph_1840.jpg/1280px-John_W_Draper-The_first_Moon_Photograph_1840.jpg',
+       'https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/View_of_the_Moon_by_John_Adams_Whipple_1852.jpg/1280px-View_of_the_Moon_by_John_Adams_Whipple_1852.jpg'],
   18: ['https://upload.wikimedia.org/wikipedia/commons/3/38/1851_07_28_Berkowski.jpg'],
-  19: ['https://upload.wikimedia.org/wikipedia/commons/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg'],
-  20: ['https://upload.wikimedia.org/wikipedia/commons/e/e3/Moonrise%2C_Hernandez%2C_New_Mexico.jpg'],
+  19: ['https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg'],
+  20: ['https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Moonrise%2C_Hernandez%2C_New_Mexico.jpg/1280px-Moonrise%2C_Hernandez%2C_New_Mexico.jpg',
+       'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Moonrise%2C_Hernandez%2C_New_Mexico.jpg/640px-Moonrise%2C_Hernandez%2C_New_Mexico.jpg'],
   22: ['https://upload.wikimedia.org/wikipedia/commons/b/bc/IKB_191.jpg'],
   25: ['https://live.staticflickr.com/1176/1065929015_20f5c3475a.jpg'],
   37: ['https://images.adsttc.com/media/images/679a/016e/d353/e901/884b/fae5/newsletter/james-turrell-unveils-monumental-commission-for-wadi-alfann-in-alula_4.jpg?1738146216',
@@ -71,7 +80,7 @@ async function downloadAndSave(url, destPath) {
 }
 
 async function processImage(buf, destPath) {
-  let img = sharp(buf)
+  let img = sharp(buf, { limitInputPixels: false })
   const meta = await img.metadata()
   const width = meta.width || 0
   const sizeBytes = buf.length
@@ -151,8 +160,8 @@ async function main() {
         totalFailed++
       }
 
-      // Small delay to be polite
-      await new Promise(r => setTimeout(r, 300))
+      // Polite delay — Wikimedia aggressively rate-limits rapid requests
+      await new Promise(r => setTimeout(r, 1200))
     }
   }
 

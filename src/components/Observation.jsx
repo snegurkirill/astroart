@@ -1,8 +1,16 @@
+import { useEffect, useRef } from 'react'
+
 export default function Observation({ item }) {
+  const scrollRef = useRef(null)
+
+  useEffect(() => {
+    if (scrollRef.current) scrollRef.current.scrollTop = 0
+  }, [item])
+
   if (!item) return null
 
   return (
-    <div className="obs-scroll" style={{
+    <div ref={scrollRef} className="obs-scroll" style={{
       position: 'fixed',
       top: 0,
       left: 0,

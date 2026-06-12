@@ -10,13 +10,22 @@ import { fileURLToPath } from 'url'
 const __dir = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(__dir, '..')
 
-const TOKEN = process.env.NOTION_TOKEN
-const DB_ID = process.env.NOTION_DB_ID
+const TOKEN = process.env.NOTION_TOKEN?.trim()
+
+function cleanDbId(raw) {
+  if (!raw) return ''
+  const match = raw.match(/([a-f0-9]{8}-?[a-f0-9]{4}-?[a-f0-9]{4}-?[a-f0-9]{4}-?[a-f0-9]{12}|[a-f0-9]{32})/i)
+  return match ? match[1].replace(/-/g, '') : raw.trim()
+}
+
+const DB_ID = cleanDbId(process.env.NOTION_DB_ID)
 
 if (!TOKEN || !DB_ID) {
   console.error('❌  Missing NOTION_TOKEN or NOTION_DB_ID environment variables')
   process.exit(1)
 }
+
+console.log(`🔑  DB_ID resolved to: ${DB_ID}`)
 
 const HEADERS = {
   Authorization: `Bearer ${TOKEN}`,

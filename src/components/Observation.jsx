@@ -77,7 +77,7 @@ export default function Observation({ item }) {
 
         {/* Attribution */}
         <dl style={{ display: 'grid', gridTemplateColumns: 'auto 1fr', gap: '6px 24px' }}>
-          <Field label="Artist" value={item.artist + (item.collective ? ` / ${item.collective}` : '')} />
+          <Field label={item.artist ? 'Artist' : 'Collective'} value={item.artist || item.collective} />
           <Field label="Type" value={item.type} />
           <Field label="Medium" value={item.medium} />
         </dl>

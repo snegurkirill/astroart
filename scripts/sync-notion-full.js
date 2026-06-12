@@ -148,13 +148,20 @@ async function main() {
       await new Promise(r => setTimeout(r, 350))
     }
 
-    // Patch # if wrong
-    const current = getNum(keep)
-    if (current !== item.id) {
-      process.stdout.write(`  #${current} → #${item.id}  "${item.title.slice(0, 35)}"...`)
-      await notion('PATCH', `/pages/${keep.id}`, {
-        properties: { '#': { number: item.id } },
-      })
+    // Patch # and Artist if wrong
+    const currentNum = getNum(keep)
+    const currentArtist = (keep.properties['Artist']?.rich_text || []).map(t => t.plain_text).join('').trim()
+    const wantArtist = item.artist || item.collective || ''
+    const numWrong = currentNum !== item.id
+    const artistWrong = currentArtist !== wantArtist
+
+    if (numWrong || artistWrong) {
+      const desc = [numWrong && `#${currentNum}→#${item.id}`, artistWrong && `artist`].filter(Boolean).join(' ')
+      process.stdout.write(`  ${desc}  "${item.title.slice(0, 35)}"...`)
+      const props = {}
+      if (numWrong) props['#'] = { number: item.id }
+      if (artistWrong) props['Artist'] = { rich_text: richText(wantArtist) }
+      await notion('PATCH', `/pages/${keep.id}`, { properties: props })
       console.log(' ✓')
       patched++
       await new Promise(r => setTimeout(r, 350))
